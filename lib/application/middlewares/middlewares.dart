@@ -6,7 +6,7 @@ const _defaultCorsHeader = {
   'Access-Control_Allow-Origin': '*',
   'Access-Control_Allow-Methods': 'GET, POST, PATCH, PUT, DELETE, OPTIONS',
   'Access-Control_Allow-Header':
-      '${HttpHeaders.connectionHeader},${HttpHeaders.authorizationHeader}',
+      '${HttpHeaders.contentTypeHeader},${HttpHeaders.authorizationHeader}',
 };
 
 //interceptos tipos de requisição GET, POST, PATCH, PUT, DELETE, OPTIONS

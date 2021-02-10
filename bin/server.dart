@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'dart:io';
 
 import 'package:args/args.dart';
@@ -29,6 +28,8 @@ void main(List<String> args) async {
     exitCode = 64;
     return;
   }
+  //chamada banco de da
+  await loadConfigApplication();
   // rotas
   final appRouter = Router();
   RouterConfigure(appRouter).configure();

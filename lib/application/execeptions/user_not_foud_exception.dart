@@ -1,0 +1,1 @@
+class UserNotFoudException implements Exception {}
